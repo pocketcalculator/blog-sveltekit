@@ -1,2 +1,19 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import PostsList from '$lib/components/PostsList.svelte'
+	import Pagination from '$lib/components/Pagination.svelte'
+	import { siteDescription } from '$lib/config'
+
+	export let data
+</script>
+
+
+<svelte:head>
+	<title>Blog</title>
+	<meta data-key="description" name="description" content={siteDescription}>
+</svelte:head>
+
+<h1>Blog</h1>
+
+<PostsList posts={data.posts} />
+
+<Pagination currentPage={1} totalPosts={data.total} />

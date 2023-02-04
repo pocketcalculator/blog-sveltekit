@@ -30,18 +30,18 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-    prerender: {
-      entries: [
-        '*',
-        '/api/posts/page/*',
-        '/category/*/page/',
-        '/category/*/page/*',
-        '/category/page/',
-        '/category/page/*',
-        '/page/',
-        '/page/*',
-      ]
-    }
+		prerender: {
+			entries: [
+				'*',
+				'/api/posts/page/*',
+				'/category/*/page/',
+				'/category/*/page/*',
+				'/category/page/',
+				'/category/page/*',
+				'/page/',
+				'/page/*',
+			]
+		}
 	}
 };
 

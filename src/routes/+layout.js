@@ -12,7 +12,7 @@ export const load = async ({ url, fetch }) => {
 			path: url.pathname
 		}
 	}
-	catch(err) {
+	catch (err) {
 		throw error(500, err)
 	}
 }

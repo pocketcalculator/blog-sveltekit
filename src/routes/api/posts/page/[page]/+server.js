@@ -13,6 +13,6 @@ export const GET = async ({ params }) => {
   }
 
   const { posts } = await fetchPosts(options)
-  
+
   return json(posts)
 }

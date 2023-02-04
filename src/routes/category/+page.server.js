@@ -17,11 +17,11 @@ export const load = async ({ url, fetch }) => {
 		})
 	})
 
-	const sortedUniqueCategories = 
+	const sortedUniqueCategories =
 		Object.values(uniqueCategories)
 			.sort((a, b) => a.title > b.title)
 
-	return { 
+	return {
 		uniqueCategories: sortedUniqueCategories
 	}
 }

@@ -10,7 +10,7 @@ export const load = async ({ url, params, fetch }) => {
 	if (page <= 1) {
 		throw redirect(301, `/category/${category}`);
 	}
-	
+
 	let offset = (page * postsPerPage) - postsPerPage
 
 	const totalPostsRes = await fetch(`${url.origin}/api/posts/count`)
@@ -21,6 +21,6 @@ export const load = async ({ url, params, fetch }) => {
 		posts,
 		page,
 		category,
-		totalPosts: total 
+		totalPosts: total
 	}
 }

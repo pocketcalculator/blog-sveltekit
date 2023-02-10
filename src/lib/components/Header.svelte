@@ -10,14 +10,17 @@
 </script>
 
 <header>
-	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
-		Skip to main content
-	</a>
-
-	<a href="/" class="site-title">
-		{siteTitle}
-	</a>
-
-	<HamburgerMenuButton />
-	<MainNav />
+	<div class="header__container">
+		<div class="header__body">
+			<div class="header__leftside">
+				<a href="/" class="site-title">
+					{siteTitle}
+				</a>
+			</div>
+			<div class="header__rightside">
+				<HamburgerMenuButton />
+				<MainNav />
+			</div>
+		</div>
+	</div>
 </header>

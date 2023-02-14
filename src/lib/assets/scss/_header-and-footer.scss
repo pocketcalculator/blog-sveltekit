@@ -75,6 +75,13 @@ header {
 						font-size: 1.25rem;
 						font-weight: 600;
 					}
+
+					@media (max-width: vars.$smMin) {
+						width: 100%;
+						font-size: 1.25rem;
+						font-weight: 600;
+						display: none;
+					}
 				}
 	
 				.menu-button {

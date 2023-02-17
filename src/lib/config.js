@@ -5,7 +5,7 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/
 
-export const siteTitle = "blog.pocketcalculator.io"
+export const siteTitle = "BLOG.POCKETCALCULATOR.IO"
 export const siteDescription = 'Built with the SvelteKit Static Blog Starter'
 export const siteURL = 'blog.pocketcalculator.io'
 export const siteLink = 'https://github.com/pocketcalculator/blog-sveltekit'

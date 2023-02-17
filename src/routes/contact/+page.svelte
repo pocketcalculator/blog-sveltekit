@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact</title>
+	<title>Contact | pocketcalculator.io</title>
 </svelte:head>
 
 <h1>Contact</h1>

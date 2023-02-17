@@ -1,21 +1,22 @@
 <script>
-	import MainNav from './MainNav.svelte';
 	import { siteAuthor } from '$lib/config';
 </script>
 
 <footer>
-	<MainNav />
-
-	<nav>
-		<ul>
-			<li>
-				<a href="/api/rss.xml" data-sveltekit-reload>RSS</a>
-			</li>
-			<li>
-				<a href="/">Home</a>
-			</li>
-		</ul>
-	</nav>
-
-	<p>&copy;{new Date().getFullYear()} {siteAuthor}</p>
+	<div class="footer__container">
+		<p>&copy;{new Date().getFullYear()} {siteAuthor}.</p>
+		<nav>
+			<ul>
+				<li>
+					<a href="/api/rss.xml" data-sveltekit-reload><i class='bx bx-rss'></i></a>
+				</li>
+				<li>
+					<a href="https://www.pocketcalculator.io"><i class='bx bx-home' ></i></a>
+				</li>
+				<li>
+					<a href="https://github.com/pocketcalculator" title="GitHub"><i class="bx bxl-github"></i></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
 </footer>

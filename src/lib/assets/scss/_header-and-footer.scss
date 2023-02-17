@@ -161,42 +161,41 @@ header {
 }
 
 footer {
-	background: var(--darker);
-	color: var(--paper);
-	display: grid;
-	grid-template-columns: 100%;
-	align-items: stretch;
-	gap: 2rem;
+	padding: 10px 0px 35px 0px;
+    transition: .3s;
+	display: flex;
+    top: 0;
+    width: 100%;
 
 	@media (min-width: vars.$smMin) {
-		grid-template-columns: 1fr 1fr 2fr;
+	//	grid-template-columns: 1fr 1fr 2fr;
 	}
 
 	.menu-button {
 		display: none;
 	}
 
-	p {
-		margin: 0;
-		font-size: 0.8rem;
-	}
-
-	a {
-		color: inherit;
-	}
-
-	nav {
-		display: initial;
-
-		@media (min-width: vars.$smMin) {
-			border-right: 1px solid var(--dark);
+	.footer__container {
+		max-width: 300px;
+    	padding: 0 10px;
+    	width: 100%;
+    	margin: 0 auto;
+		align-items: center;
+		display: flex;
+		p {
+			font-size: 0.9rem;
 		}
 
-		ul {
-			display: initial;
+		nav {
+			ul {
+				display: flex;
+				width: max-content;
 
-			li + li {
-				margin-top: 0.5rem;
+				li {
+					margin: 0;
+					padding: 0 5px;
+					display: block;
+				}
 			}
 		}
 	}

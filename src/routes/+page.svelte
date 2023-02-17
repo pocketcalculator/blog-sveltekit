@@ -7,7 +7,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Blog | pocketcalculator.io</title>
 	<meta data-key="description" name="description" content={siteDescription} />
 </svelte:head>
 

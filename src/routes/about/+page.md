@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>About</title>
+	<title>About | pocketcalculator.io</title>
 </svelte:head>
 
 # About

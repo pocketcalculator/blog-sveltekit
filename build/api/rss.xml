@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>BLOG.POCKETCALCULATOR.IO</title>
+<description>Built with the SvelteKit Static Blog Starter</description>
+<link>https://github.com/pocketcalculator/blog-sveltekit</link>
+<atom:link href="https://blog.pocketcalculator.io/rss.xml" rel="self" type="application/rss+xml"/>
+<item>
+<guid isPermaLink="true">https://blog.pocketcalculator.io/mdsvex-component-example</guid>
+<title>A Markdown post with a Svelte component</title>
+<link>https://blog.pocketcalculator.io/mdsvex-component-example</link>
+<description>This post demonstrates how to include a Svelte component in a Markdown post.</description>
+<pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://blog.pocketcalculator.io/syntax-highlighting-example</guid>
+<title>Syntax highlighting with mdsvex</title>
+<link>https://blog.pocketcalculator.io/syntax-highlighting-example</link>
+<description>This post shows you how syntax highlighting works here.</description>
+<pubDate>Wed, 01 Dec 2021 00:00:00 GMT</pubDate>
+</item><item>
+<guid isPermaLink="true">https://blog.pocketcalculator.io/heading-links-example</guid>
+<title>Automatic heading links in mdsvex</title>
+<link>https://blog.pocketcalculator.io/heading-links-example</link>
+<description>Check out how heading links work with this starter in this post.</description>
+<pubDate>Tue, 26 Oct 2021 00:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

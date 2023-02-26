@@ -1,0 +1,1 @@
+const t="BLOG.POCKETCALCULATOR.IO",e="Built with the SvelteKit Static Blog Starter",s="Paul Sczurek",o=10,a=[{title:"About",route:"/about"},{title:"Contact",route:"/contact"}];export{s as a,e as b,a as n,o as p,t as s};
